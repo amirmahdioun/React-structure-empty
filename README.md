@@ -2,10 +2,10 @@
 
 This project is designed for react app, and it is fully structured for pages, layout, configs and so on.
 
-##How to use?!
+## How to use?!
 It's very easy to use. You should just clone this project and start your coding with fully folder structure 
 
-##About structure and folders ...
+## About structure and folders ...
 
 - **api folder** : You should create and write your apis in this folder for instance for user api create a javascript file with user.api name and then write your codes
 - **assets folder** : This folder has 3 folders for fonts, images and style 
