@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Empty react app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is designed for react app, and it is fully structured for pages, layout, configs and so on.
 
-## Available Scripts
+##How to use?!
+It's very easy to use. You should just clone this project and start your coding with fully folder structure 
 
-In the project directory, you can run:
+##About structure and folders ...
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **api folder** : You should create and write your apis in this folder for instance for user api create a javascript file with user.api name and then write your codes
+- **assets folder** : This folder has 3 folders for fonts, images and style 
+- **components folder** : This folder is designed for general components which are used in all the project
+- **config folder** : In this folder you should write your configs for example routes config should be here
+- **environment folder** : Here is the best place for environment files
+- **hook folder** : Do you have a custom hook?! you are in right place to write it!
+- **i18n folder** : This folder is designed for i18n 
+- **layout folder** : This folder is used for layouts. by default, it has 2 folder for admin and user layout. Add your layouts in this folder
+- **pages folder**: You should create your pages in this folder. Each page may have component folder for local components 
+- **redux folder**: All files about redux should be here. We have actions folder for actions and reducers for reducers
+- **route folder**: This folder is designed for routes. It has 3 components for private, protected and public routes
+- **service folder**: All services should be here
+- **utils folder**: If you are using some personal functions, you should place them in this folder as utils
